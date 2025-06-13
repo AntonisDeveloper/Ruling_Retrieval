@@ -38,7 +38,7 @@ The search engine uses three complementary methods to find relevant rulings:
   <img src="assets/results_2.PNG" alt="Entry" height="800">
 </div>
 <div align="center">
-  <img src="assets/results_1.PNG" alt="Entry" height="1100">
+  <img src="assets/results_1.PNG" alt="Entry" height="1050">
   <p><em>Above, one sees the returned results.</em></p>
 </div>
  ---
