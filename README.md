@@ -29,7 +29,7 @@ The search engine uses three complementary methods to find relevant rulings:
   
 ---
 <div align="center">
-  <img src="assets/rulings_graph.png" alt="Graph of court rulings" height="400">
+  <img src="assets/rulings_graph.png" alt="Graph of court rulings" height="600">
   <p><em>Below is depicted the graph of rulings (showing the greatest component) and the edges representing the connections between the vertices</em></p>
 </div>
 
