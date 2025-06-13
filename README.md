@@ -26,7 +26,19 @@ The search engine uses three complementary methods to find relevant rulings:
   - Same court and law area (rulings from the same court in the same legal field) (around 15% of total edge weight contribution)
   - Text similarity (rulings with similar content) (around 30% of total edge weight contribution)
 - Finds rulings that are legally related to your case through these connections
-  
+
+
+---
+<div align="center">
+  <img src="assets/Entry.PNG" alt="Entry" height="400">
+  <p><em>Above, one sees the UI, where the user can enter the details of his case, if available/applicable.</em></p>
+</div>
+<div align="center">
+  <img src="assets/results.png" alt="Entry" height="600">
+  <p><em>Above, one sees the returned results.</em></p>
+</div>
+ ---
+ 
 ---
 <div align="center">
   <img src="assets/rulings_graph.png" alt="Graph of court rulings" height="600">
