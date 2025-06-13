@@ -22,13 +22,13 @@ The search engine uses three complementary methods to find relevant rulings:
 ### 3. Graph Search
 - Creates a network of rulings where each ruling is a node
 - Connects rulings with edges based on three criteria:
-  - Common legal articles (rulings that cite the same laws)
-  - Same court and law area (rulings from the same court in the same legal field)
-  - Text similarity (rulings with similar content)
+  - Common legal articles (rulings that cite the same laws) (around 55% of total edge weight contribution)
+  - Same court and law area (rulings from the same court in the same legal field) (around 15% of total edge weight contribution)
+  - Text similarity (rulings with similar content) (around 30% of total edge weight contribution)
 - Finds rulings that are legally related to your case through these connections
 
-<img src="graph.png" alt="Graph of court rulings" height="400">
-*Below is depicted the graph of rulings (showing the greatest component) and the edges representing the connections between the vertices*
+<img src="assets/rullings_graph.png" alt="Graph of court rulings" height="400">
+*This image shows the graph of rulings, where a vertex represents a court ruling and an edge between two vertices implies connectivity, i.e. some minimal similarity criteria is met.
 
 ## Project Structure
 
