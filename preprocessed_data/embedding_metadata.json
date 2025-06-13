@@ -1,0 +1,6 @@
+{
+  "embedding_dim": 384,
+  "max_tokens_per_chunk": 512,
+  "total_documents": 1960,
+  "chunked_documents": 1850
+}
