@@ -29,6 +29,7 @@ The search engine uses three complementary methods to find relevant rulings:
 
 
 ---
+## UI and Results
 <div align="center">
   <img src="assets/Entry.PNG" alt="Entry" height="400">
   <p><em>Above, one sees the UI, where the user can enter the details of his case, if available/applicable.</em></p>
@@ -40,6 +41,7 @@ The search engine uses three complementary methods to find relevant rulings:
  ---
  
 ---
+## Ruling Graph Visualization 
 <div align="center">
   <img src="assets/rulings_graph.png" alt="Graph of court rulings" height="600">
   <p><em>Above is depicted the graph of rulings (showing the greatest component). A vertex represents a unique ruling and an edge between two vertices implies some minimal connectivity criteria is met.</em></p>
