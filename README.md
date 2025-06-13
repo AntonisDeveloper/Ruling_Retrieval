@@ -30,7 +30,7 @@ The search engine uses three complementary methods to find relevant rulings:
 ---
 <div align="center">
   <img src="assets/rulings_graph.png" alt="Graph of court rulings" height="600">
-  <p><em>Below is depicted the graph of rulings (showing the greatest component) and the edges representing the connections between the vertices</em></p>
+  <p><em>Above is depicted the graph of rulings (showing the greatest component). A vertex represents a unique ruling and an edge between two vertices implies some minimal connectivity criteria is met.</em></p>
 </div>
 
  ---
