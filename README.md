@@ -27,6 +27,9 @@ The search engine uses three complementary methods to find relevant rulings:
   - Text similarity (rulings with similar content)
 - Finds rulings that are legally related to your case through these connections
 
+<img src="graph.png" alt="Graph of court rulings" height="400">
+*Below is depicted the graph of rulings (showing the greatest component) and the edges representing the connections between the vertices*
+
 ## Project Structure
 
 ```
