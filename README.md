@@ -1,6 +1,31 @@
-# Court Rulings Search Application
+# Swiss Court Rulings Search
 
-A full-stack application for searching and analyzing Swiss court rulings, built with React and Flask.
+A smart search engine for Swiss court rulings that combines three different search methods to find the most relevant legal precedents for your case.
+
+## How It Works
+
+The search engine uses three complementary methods to find relevant rulings:
+
+### 1. Vector Search
+- Uses text embeddings to understand the semantic meaning of your case description
+- Compares your case with all rulings using cosine similarity
+- Great for finding rulings that discuss similar legal concepts, even if they use different words
+
+### 2. Keyword Search
+- Uses an inverted index built on 2000+ rulings
+- Searches for both single words and pairs of words (bigrams)
+- Ranks results based on:
+  - Number of keyword matches
+  - Article mentions (rulings that cite the same legal articles get higher priority)
+- Returns top 10 most relevant matches
+
+### 3. Graph Search
+- Creates a network of rulings where each ruling is a node
+- Connects rulings with edges based on three criteria:
+  - Common legal articles (rulings that cite the same laws)
+  - Same court and law area (rulings from the same court in the same legal field)
+  - Text similarity (rulings with similar content)
+- Finds rulings that are legally related to your case through these connections
 
 ## Project Structure
 
@@ -45,24 +70,11 @@ A full-stack application for searching and analyzing Swiss court rulings, built 
 
 ## Deployment
 
-### Backend (Heroku)
-1. Create a new Heroku app
-2. Add the Heroku remote:
-   ```bash
-   heroku git:remote -a your-app-name
-   ```
-3. Deploy:
-   ```bash
-   git push heroku main
-   ```
+The application consists of two parts:
+- Backend: Python Flask API
+- Frontend: React web application
 
-### Frontend (Vercel)
-1. Connect your GitHub repository to Vercel
-2. Configure the build settings:
-   - Build Command: `cd frontend && npm install && npm run build`
-   - Output Directory: `frontend/build`
-3. Add environment variables:
-   - `REACT_APP_API_URL`: Your Heroku backend URL
+Each part needs to be deployed to a suitable hosting service that supports its technology stack.
 
 ## Environment Variables
 
