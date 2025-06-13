@@ -35,7 +35,7 @@ The search engine uses three complementary methods to find relevant rulings:
   <p><em>Above, one sees the UI, where the user can enter the details of his case, if available/applicable.</em></p>
 </div>
 <div align="center">
-  <img src="assets/results_nice.png" alt="Entry" height="800">
+  <img src="assets/results_nice.png" alt="Entry" height="500">
   <p><em>Above, one sees the returned results.</em></p>
 </div>
  ---
